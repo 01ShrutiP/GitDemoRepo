@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite" thread="10">
+  <!--  test name="Test" parallel="classes"-->
+  <test name="Test" parallel="methods">
+    <classes>
+      <class name="TestNG_Practice.ParallelTest"/>
+      <!--  class name="TestNG_Practice.DemoSuite"/--> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+      <parameter name="username" value="shruti.parkar@gmail.com"/>
+      <parameter name="password" value="shruti@123"/>
+    <classes>
+      <class name="TestNG_Practice.ParametersTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
