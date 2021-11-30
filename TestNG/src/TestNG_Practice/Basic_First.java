@@ -14,7 +14,7 @@ public class Basic_First
   @Test
   public void facebook_login() throws Exception 
   {
-	  
+	  System.out.println("Facebook login");
 	  driver.findElement(By.id("email")).sendKeys("shruti.parkar41@gmail.com");
 	  driver.findElement(By.id("pass")).sendKeys("Shruti@123");
 	  Thread.sleep(5000);;
