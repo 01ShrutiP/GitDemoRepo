@@ -22,6 +22,14 @@ public class Basic_First
 	  WebElement Errormsg=driver.findElement(By.xpath("//*[@id=\"loginform\"]/div[2]/div[2]"));
 	  System.out.println("Error msg is:"+Errormsg.getText());
   }
+  
+  @Test
+  public void Test1() throws Exception 
+  {
+	  System.out.println("Facebook login Test1");
+	  System.out.println("Facebook login Test2");
+	  
+  }
   @BeforeMethod
   public void beforeMethod() 
   {
