@@ -30,6 +30,14 @@ public class Basic_First
 	  System.out.println("Facebook login Test2");
 	  
   }
+  
+  @Test
+  public void Test2() throws Exception 
+  {
+	  System.out.println("Facebook login RegTest1");
+	  System.out.println("Facebook login RegTest2");
+	  
+  }
   @BeforeMethod
   public void beforeMethod() 
   {
